@@ -1,0 +1,130 @@
+.bg-primary {
+    background-color: #205781 !important;
+}
+
+.bg-secondary {
+    background-color: #4F959D !important;
+}
+
+.bg-highlight {
+    background: #98D2C0;
+}
+
+.bg-highlight {
+    background-color: #F6F8D5;
+}
+
+.highlight-text {
+    color: #F6F8D5;
+}
+
+.text-color {
+    color: #F5F5F5;
+}
+
+.text-color-dark {
+    color: #205781;
+}
+
+.page-background {
+    background-color: #182C40;
+}
+
+.border-primary {
+    border-color: #6E7783 !important;
+}
+
+.separator {
+    color: azure;
+}
+
+
+.btn-linkedin{
+    background-image: url('resources/images/linkedin.png');
+    background-color: #0077B5;
+    color: transparent;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+@keyframes fadeLinkedin {
+    50%{
+        background-image: none;
+    }
+    100% {
+        background-image: none;
+        background-color: #0077B5;
+        color: white;
+    }
+}
+
+.btn-linkedin:hover {
+    animation: fadeLinkedin 1s forwards;
+}
+
+.btn-github{
+    background-image: url('resources/images/github.png');
+    background-color: #ffff;
+    color: transparent;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+@keyframes fadeGithub {
+    50%{
+        background-image: none;
+    }
+    100% {
+        background-image: none;
+        background-color: #212121;
+        color: white;
+    }
+}
+
+.btn-github:hover {
+    animation: fadeGithub 1s forwards;
+}
+
+.btn-instagram{
+    background-image: url('resources/images/instagram.png');
+    background-color: #F24D56;
+    color: transparent;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+@keyframes fadeInstagram {
+    50%{
+        background-image: none;
+    }
+    100% {
+        background-image: none;
+        background-color: #F24D56;
+        color: white;
+    }
+}
+
+.btn-instagram:hover {
+    animation: fadeInstagram 1s forwards;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .responsive-width-50 {
+        max-width: 50%;
+    }
+}
